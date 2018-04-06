@@ -87,12 +87,18 @@ html{
 
 .btn{
   margin-left: 30px;
-  height: 80px;
-  border-radius: 50%;
+  height: 40px;
+  border: #fff 2px solid;
+  border-radius: 7px;
   align-self: center;
-  background-color: none;
+  background-color: transparent;
   outline: none;
 
+}
+.btn a{
+    text-decoration: none;
+    padding: 5px;
+    color: #fff;
 }
 
 @media only screen and (max-width:500px){
