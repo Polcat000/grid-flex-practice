@@ -26,12 +26,12 @@ html{
 
 
 .grid div:nth-child(even){
-    background-color: red;
+    background-color:#25CCF7;
 }
 
 
 .grid div:nth-child(odd){
-    background-color: green;
+    background-color:#F97F51;
 }
 
 .nav{
@@ -43,7 +43,7 @@ html{
     font-size: 100%;
     text-align: center;
     color:#fff;
-    background-color: green;
+    background-color:#B33771;
 
 }
 
