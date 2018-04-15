@@ -90,7 +90,8 @@ html{
 .sidebar{
    grid-area: sidebar;
    display:flex;
-
+   flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -155,8 +156,10 @@ html{
     }
     .header{
         overflow-x: auto;
-        font-size: 160%;
+        font-size: 140%;
         justify-self: center;
+        padding: 20px;
+        margin:0;
     }
     .sidebar{
         justify-content: center;
