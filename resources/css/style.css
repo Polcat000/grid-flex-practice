@@ -89,6 +89,7 @@ html{
 
 .sidebar{
    grid-area: sidebar;
+   display:flex;
 
 
 }
@@ -107,7 +108,7 @@ html{
 }
 
 .btn{
-  margin-left: 30px;
+  
   height: 40px;
   border: #fff 2px solid;
   border-radius: 7px;
@@ -151,6 +152,20 @@ html{
             "content"
             "footer";
         grid-gap: 2px;
+    }
+    .header{
+        overflow-x: auto;
+        font-size: 160%;
+        justify-self: center;
+    }
+    .sidebar{
+        justify-content: center;
+    }
+    .content{
+        display:flex;
+        flex-direction: column;
+        margin-left: 4%;
+        text-align: center;
     }
 
     .desktop{
